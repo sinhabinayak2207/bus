@@ -42,10 +42,10 @@ export default function AboutPage() {
                   Founded in 2005 by transportation industry veterans, SafeBus began with a simple mission: to provide the safest and most reliable school transportation services in the region.
                 </p>
                 <p className="text-gray-700 mb-4">
-                  What started with just 5 buses and a commitment to excellence has grown into a fleet of over 200 vehicles serving dozens of school districts across the state. Throughout our growth, we've maintained our core values of safety, reliability, and exceptional service.
+                  What started with just 5 buses and a commitment to excellence has grown into a fleet of over 200 vehicles serving dozens of school districts across the state. Throughout our growth, we&apos;ve maintained our core values of safety, reliability, and exceptional service.
                 </p>
                 <p className="text-gray-700">
-                  Today, we're proud to be a leader in school transportation innovation, continuously investing in the latest safety technology, driver training, and environmentally friendly vehicles.
+                  Today, we&apos;re proud to be a leader in school transportation innovation, continuously investing in the latest safety technology, driver training, and environmentally friendly vehicles.
                 </p>
               </div>
             </div>

@@ -155,7 +155,7 @@ export default function DailySchoolBusPage() {
       id: 3,
       name: "Meera Patel",
       role: "School Administrator",
-      content: "Dusker's bus service has transformed our school transportation. Their digital attendance system ensures every child is accounted for.",
+      content: "Dusker&apos;s bus service has transformed our school transportation. Their digital attendance system ensures every child is accounted for.",
       image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80"
     }
   ];
