@@ -71,7 +71,7 @@ const Testimonials = () => {
               
               <div className="md:w-3/4 md:pl-8">
                 <p className="text-gray-700 text-lg italic mb-6">
-                  "{testimonials[activeIndex].content}"
+                  &quot;{testimonials[activeIndex].content}&quot;
                 </p>
                 <div>
                   <h4 className="text-blue-900 font-semibold">{testimonials[activeIndex].name}</h4>
