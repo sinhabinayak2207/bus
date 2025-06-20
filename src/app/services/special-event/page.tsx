@@ -8,9 +8,7 @@ import FaqAccordion from '@/components/services/FaqAccordion';
 import TestimonialSlider from '@/components/services/TestimonialSlider';
 import BenefitCard from '@/components/services/BenefitCard';
 import ServiceOption from '@/components/services/ServiceOption';
-import ComfortFeature from '@/components/services/ComfortFeature';
 import ServiceFeature from '@/components/services/ServiceFeature';
-import FleetGallery from '@/components/services/FleetGallery';
 
 export default function SpecialEventPage() {
   const [activeTab, setActiveTab] = useState('features');
