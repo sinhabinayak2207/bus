@@ -145,12 +145,17 @@ const serviceData = {
   },
 };
 
+// Define the type for our service data structure
+type ServiceData = typeof serviceData;
+// Define a type for valid category keys
+type ServiceCategory = keyof ServiceData;
+
 export default function ServiceCategoryPage() {
   const params = useParams();
   const category = params.category as string;
   
   // In a real application, we would fetch this data from Strapi CMS
-  const service = serviceData[category] || {
+  const service = serviceData[category as ServiceCategory] || {
     title: 'Service Not Found',
     description: 'The requested service category does not exist.',
     image: '/images/placeholder.jpg',
