@@ -1,0 +1,55 @@
+/* Tailwind Directives */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --primary: #1d4ed8;
+  --primary-light: #3b82f6;
+  --secondary: #fbbf24;
+  --secondary-light: #fcd34d;
+  --accent: #0ea5e9;
+  --accent-light: #38bdf8;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), ui-sans-serif, system-ui, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading), ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-6 rounded-full transition-colors duration-300 inline-flex items-center justify-center;
+  }
+
+  .btn-secondary {
+    @apply bg-yellow-400 hover:bg-yellow-500 text-blue-900 font-medium py-2 px-6 rounded-full transition-colors duration-300 inline-flex items-center justify-center;
+  }
+
+  .btn-outline {
+    @apply border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white font-medium py-2 px-6 rounded-full transition-colors duration-300 inline-flex items-center justify-center;
+  }
+  
+  .btn-outline-white {
+    @apply border-2 border-white text-white hover:bg-white hover:text-blue-600 font-medium py-2 px-6 rounded-full transition-colors duration-300 inline-flex items-center justify-center;
+  }
+
+  .section-padding {
+    @apply py-16 md:py-24;
+  }
+
+  .card {
+    @apply bg-white rounded-xl shadow-md overflow-hidden transition-transform duration-300 hover:shadow-lg hover:-translate-y-1;
+  }
+
+  .feature-icon {
+    @apply bg-blue-100 text-blue-600 p-3 rounded-full mb-4 inline-flex items-center justify-center;
+  }
+}
